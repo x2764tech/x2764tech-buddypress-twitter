@@ -178,7 +178,7 @@ HTML;
     function x2764tech_bp_twitter_activate_version_1_3()
     {
         $version = get_option('x2764tech_bp_twitter_version', '0');
-        if(version_compare($version, '1.3.1', '>=')) {
+        if(version_compare($version, '1.3', '>=')) {
             return;
         }
         deactivate_plugins('buddypress-twitter/buddypress-twitter.php');
