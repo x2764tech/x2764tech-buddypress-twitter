@@ -1,13 +1,15 @@
-=== BuddyPress Twitter ===
-Contributors: CJ Kruger
+=== x2764tech BuddyPress Twitter ===
+Contributors: x2764tech, CJ Kruger
 Donate link:
 Tags: buddypress, buddypress member, buddypress twitter, twitter, twitter @usernames
 Requires at least: 3.2.1
-Tested up to: 3.3.1
-BuddyPress: 1.5.1
-Stable tag: 1.2
+Tested up to: 4.5 
+BuddyPress: 2.5.2
+Stable tag: 1.3
 
 == Description ==
+
+This is a fork of buddy press twitter from https://wordpress.org/plugins/buddypress-twitter/ - with updates to make it work better in WordPress 4
 
 Let your members and groups show their Twitter Follow Button on their profile page and group page. Using the twitter's @username widget, the plugin fetches your members and/or groups username and displays their folow button in the member's/group's header.
 
@@ -24,7 +26,7 @@ Groups: Once you ( the site admin ) have set up the groups component, all your g
 = Automatic Installation =
 
 1. From inside your WordPress administration panel, visit 'Plugins -> Add New'
-2. Search for `BuddyPress Twitter` and find this plugin in the results
+2. Search for `x2764tech BuddyPress Twitter` and find this plugin in the results
 3. Click 'Install'
 4. Once installed, activate via the 'Plugins -> Installed' page
 5. From your admin panel, navigate to 'Buddypress' -> 'Profile fields'
@@ -35,7 +37,7 @@ Groups: Once you ( the site admin ) have set up the groups component, all your g
 
 = Manual Installation =
 
-1. Upload `buddypress-twitter` to the `/wp-content/plugins/` directory
+1. Upload `ix2764tech-buddypress-twitter` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. From your admin panel, navigate to 'Buddypress' -> 'Profile fields'
 4. Click 'Add New Field' and give the field a title
@@ -47,6 +49,10 @@ Groups: Once you ( the site admin ) have set up the groups component, all your g
 License.txt - contains the licensing details for this component.
 
 == Roadmap ==
+
+= 1.3 =
+* Fixed a few issues related to WordPress 4
+* Changed style.css to be registered via wp_enqueue_style
 
 = 1.2 =
 * Open to suggestions
