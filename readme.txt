@@ -1,13 +1,16 @@
 === x2764tech BuddyPress Twitter ===
 Contributors: x2764tech, CJ Kruger
-Donate link:
+Donate link: http://www.unicef.org.uk/donate/
 Tags: buddypress, buddypress member, buddypress twitter, twitter, twitter @usernames
 Requires at least: 3.2.1
 Tested up to: 4.5 
 BuddyPress: 2.5.2
 Stable tag: 1.3
+License: GPLv2 or later.
 
 == Description ==
+
+I accept pull requests! - https://github.com/x2764tech/x2764tech-buddypress-twitter
 
 This is a fork of buddy press twitter from https://wordpress.org/plugins/buddypress-twitter/ - with updates to make it work better in WordPress 4
 
@@ -37,7 +40,7 @@ Groups: Once you ( the site admin ) have set up the groups component, all your g
 
 = Manual Installation =
 
-1. Upload `ix2764tech-buddypress-twitter` to the `/wp-content/plugins/` directory
+1. Upload `x2764tech-buddypress-twitter` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. From your admin panel, navigate to 'Buddypress' -> 'Profile fields'
 4. Click 'Add New Field' and give the field a title
@@ -50,18 +53,11 @@ License.txt - contains the licensing details for this component.
 
 == Roadmap ==
 
-= 1.3 =
-* Fixed a few issues related to WordPress 4
-* Changed style.css to be registered via wp_enqueue_style
-
-= 1.2 =
 * Open to suggestions
-* Add option to hide the blank search when clicking on a users public profile details
-* Add all twitters language options
 
-= 1.2 =
-* Open to suggestions
-* Add all twitters language options
+== Upgrade Notice ==
+
+This isn't really an update
 
 == Frequently Asked Questions ==
 
@@ -75,7 +71,7 @@ No, the text box will use the title you gave your Xprofile field as described in
 
 = Where can I get support or request a feature? =
 
-I will only respond to the [Buddypress Twitter Forum](http://buddypress.org/community/groups/buddypress-twitter/forum/ “Buddypress Twitter Support”) or on my Blog ( I am working on my blog so its abit of a mess, best you use the Forum )
+I will only respond to the [Buddypress Twitter Forum](http://buddypress.org/community/groups/buddypress-twitter/forum/ ï¿½Buddypress Twitter Supportï¿½) or on my Blog ( I am working on my blog so its abit of a mess, best you use the Forum )
 
 == Screenshots ==
 
@@ -85,6 +81,10 @@ I will only respond to the [Buddypress Twitter Forum](http://buddypress.org/comm
 4. Admin panel with follow button preview
 
 == Changelog ==
+
+= 1.3 =
+* Fixed a few issues related to WordPress 4
+* Changed style.css to be registered via wp_enqueue_style
 
 = 1.1 =
 * Added option to display the group button before or after the group meta
